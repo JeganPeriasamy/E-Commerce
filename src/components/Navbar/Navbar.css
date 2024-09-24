@@ -1,0 +1,30 @@
+.nav-logo img {
+    width: 50px;
+  }
+  
+  .nav-link {
+    text-decoration: none !important;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: #ff4141 !important;
+  }
+  
+  .cart-icon {
+    width: 30px;
+  }
+  
+  .badge {
+    position: relative;
+    top: -10px;
+    left: -10px;
+    font-size: 12px;
+  }
+  
+  @media (max-width: 500px) {
+    .navbar-brand img {
+      width: 30px;
+    }
+  }
+  
